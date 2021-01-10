@@ -1,57 +1,45 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Pranali Patil",
     "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "picture": "https://academicpranalipatil.github.io/images/cropped.png",
+    "email": "pranalidspatil@gmail.com",
+    "phone": "+91-9087775171",
+    "website": "https://academicpranalipatil.github.io",
+    "summary": "A focused and adaptable Electronics and Instrumentation Graduate looking forward to pursue Masters to explore opportunities in the ever changing world of technology in order to leverage skills and make significant contribution to the society.",
     "location": {
-      "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
-      "countryCode": "USA",
-      "region": "Hawaii"
+      "address": "864/41 A-ward",
+      "postalCode": "416001",
+      "city": "Kolhapur",
+      "countryCode": "India",
+      "region": "Maharashtra"
     },
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "academicpranalipatil",
+        "url": "http://github.com/academicpranalipatil"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
-      },
-      {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
-      },
-      {
-        "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "Pranali Patil",
+        "url": "http://linkedin.com/in/pranalipatil"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
-      "keywords": [
-        "Arduino",
-        "TI MSP430"
-      ]
-    },
-    {
-      "name": "data mining",
+      "name": "Electronics and Instrumentation",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "VLSI Design",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Computer Architechture and Organization",
       "keywords": [
       ]
     }
@@ -63,9 +51,12 @@
       "keywords": [
         "C",
         "C++",
-        "Java",
-        "Javascript",
-        "Assembly",
+        "Python",
+        "Matlab",
+        "LabVIEW",
+        "Rx-Logix",
+        "Keil-u-Vision ",
+        "Xilinx ",
         "Common Lisp"
       ]
     },
