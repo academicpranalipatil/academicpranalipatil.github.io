@@ -23,7 +23,7 @@
       {
         "network": "linkedin",
         "username": "pranalipatil",
-        "url": "http://linkedin.com/in/changeme"
+        "url": "www.linkedin.com/in/pranali-patilb7677a145"
       }  
     ]
   },
@@ -52,78 +52,84 @@
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
+      "name": "Programming Languages",
       "level": "",
       "keywords": [
         "C",
         "C++",
-        "Python",
-        "Java",
-        "Assembly",
-        "Common Lisp"
+        "Python"
       ]
     },
     {
-      "name": "Toolsets/OS",
+      "name": "Technical Computing Softwares",
       "level": "",
       "keywords": [
-        "MacOS",
-        "Ubuntu",
-        "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "R",
+        "Matlab"
+      ]
+    },
+    {
+      "name": "System Design Softwares ",
+      "level": "",
+      "keywords": [
+        "LabVIEW",
+        "Rx-Logix",
+        "P-Spice ",
+        "Keil-u-Vision ",
+        "Xilinx"
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present",
-      "gpa": "",
+      "institution": "Vellore Institute of Technology,Vellore ",
+      "area": "Electronics and Instrumentation (2016-2020)",
+      "studyType": "Bachelor of Technology",
+      "startDate": "04-07-2016",
+      "endDate": "28-06-2020",
+      "gpa": "9.27/10",
       "courses": [
       ]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "company": "Bhabha Atomic Research Center, Trombay, Mumbai",
+      "position": "Research Intern",
+      "website": "http://www.barc.gov.in/",
+      "startDate": "01-01-2020",
+      "endDate": "01-06-2020",
+      "summary": "Part of Reactor Engineering Department",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Development of EMAT based ultrasonic Sensor for Non Destructive Evaluation (NDE) applications in nuclear reactor Components. ",
+        "Experimental work for evolving a methodology for measuring gap between in-accessible outer tubes using MATLAB based "
+         "Pulsed Eddy Current Testing sensor techniques suitable for nuclear reactor applications."
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "company": "Indian Oil Corporation Limited , Research and Development Centre, Faridabad",
+      "position": "Research Trainee",
+      "website": "https://iocl.com/AboutUs/Research_Development.aspx",
+      "startDate": "24-04-2018",
+      "endDate": "24-05-2018",
+      "summary": "Bio-Research Centre and Hydro-Processing Pilot Plant",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Study of PLC based Control System of Hydro-Processing Pilot Plant. ",
+        "Trouble-shooting Analytical instruments like HR-GCMS in Bio-research Centre"
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
+      "organization": "National Service Scheme",
+      "website": "https://nss.gov.in/",
+      "position": "Service for Society Volunteer",
+      "startDate": "05-07-2018",
+      "endDate": "05-07-2019",
       "summary": "Lead developer for weather sensing project",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "procession of creating awareness of different social problems like education, cleanliness, and health hygiene in rural and city suburbs of Vellore district. ",
+        "Organization provides help in natural and man-made disasters by providing food, clothing, and first aid to victims. "
       ]
     },
     {
