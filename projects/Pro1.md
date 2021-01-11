@@ -5,7 +5,7 @@ image: images/first.2.jpg
 title: Precision Farming System using Robot and Wireless Sensor Networks, IOT
 permalink: projects/micromouse
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date: 2016-09-01
 labels:
   - Robotics &IOT
   - Microcontroller (AT89S52) 
