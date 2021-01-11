@@ -24,7 +24,7 @@ Monitoring the environmental factors is not the complete solution to increase th
 
 This data is sent to the farmer through interface of a website using raspberry Pi. After receiving the data farmer takes appropriate action by sending commands to the bot to perform the task via Application interface. The bot will then perform the necessary task such as watering the regions which require water in sufficient quantity.  The bot will cater to the needs of the region as indicated by the soil moisture sensor autonomously. This bot can also be used for Livestock monitoring using image processing with help of camera module attached to the bot. The bot is mobile and can move around the field on a grid into which the farm will be segregated using the concept of maze solver bot.
 
-Here is video that illustrates how we read values from the line sensors and control the bot: Video https://vimeo.com/336328309
+Here is video that illustrates how we read values from the line sensors and control the bot: https://vimeo.com/336328309
 
 
 
