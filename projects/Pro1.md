@@ -10,7 +10,7 @@ labels:
   - Robotics &IOT
   - Microcontroller (AT89S52) 
   - Raspberry Pi
-summary: . The use of wireless sensor network that collect data from different sensors deployed at various nodes in different farm grids and send it through the wireless protocol.The collected data provide the information about the various environmental factors..
+summary:The use of wireless sensor network that collect data from different sensors deployed at various nodes in different farm grids and send it through the wireless protocol to control the action of the Bot in the farm.
 ---
 
 <div class="ui small rounded images">
