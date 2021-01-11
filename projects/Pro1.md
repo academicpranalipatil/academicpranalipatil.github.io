@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
+image: images/first.2.jpg
 title: Precision Farming System using Robot and Wireless Sensor Networks, IOT
 permalink: projects/micromouse
 # All dates must be YYYY-MM-DD format!
