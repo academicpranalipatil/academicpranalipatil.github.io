@@ -130,34 +130,30 @@
         "procession of creating awareness of different social problems like education, cleanliness, and health hygiene in rural and city suburbs of Vellore district. ",
         "Organization provides help in natural and man-made disasters by providing food, clothing, and first aid to victims. "
       ]
-    },
-    {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
-      ]
     }
+    
   ],
   "awards": [
     {
-      "title": "Certificate of Merit, VIT University (rank 7/108), 2016-17",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
-    },
+      "title": "Certificate of Merit (rank 7/108),",
+      "date": "2016-17",
+      "awarder": "VIT University, Vellore",
+      "summary": "Merit Scholarship awarded to the top 10 students of the School of Electrical Engineering" },
+      {
+      "title": "Certificate of Merit (rank 7/108),",
+      "date": "2017-18",
+      "awarder": "VIT University, Vellore",
+      "summary": "Merit Scholarship awarded to the top 10 students of the School of Electrical Engineering" },
+      {
+      "title": "Certificate of Merit (rank 6/108),",
+      "date": "2018-19",
+      "awarder": "VIT University, Vellore",
+      "summary": "Merit Scholarship awarded to the top 10 students of the School of Electrical Engineering "},
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
-    }
+      "title": "Certificate of Merit (rank 6/108)",
+      "date": "2019-20",
+      "awarder": "VIT University,Vellore",
+      "summary": "Merit Scholarship awarded to the top 10 students of the School of Electrical Engineering " }
   ],
   "references": [
     {
