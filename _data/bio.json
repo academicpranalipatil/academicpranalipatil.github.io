@@ -2,56 +2,50 @@
   "basics": {
     "name": "Pranali Patil",
     "label": "Student",
-    "picture": "https://academicpranalipatil.github.io/images/photograph.jpg",
+    "picture": "https://academicpranalipatil.github.io/images/cropped.jpg",
     "email": "pranalidspatil@gmail.com",
     "phone": "+91-9087775171",
     "website": "https://academicpranalipatil.github.io",
     "summary": "A focused and adaptable Electronics and Instrumentation Graduate looking forward to pursue Masters to explore opportunities in the ever changing world of technology.",
     "location": {
       "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
-      "countryCode": "USA",
-      "region": "Hawaii"
+      "postalCode": "416001",
+      "city": "Kolhapur",
+      "countryCode": "India",
+      "region": "Maharashtra"
     },
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "academicpranalipatil",
+        "url": "http://github.com/academicpranalipatil"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
+        "username": "pranalipatil",
         "url": "http://linkedin.com/in/changeme"
-      },
-      {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
-      },
-      {
-        "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
-      }
+      }  
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
+      "name": "VLSI Design",
       "keywords": [
-        "Arduino",
-        "TI MSP430"
+        ""
       ]
     },
     {
-      "name": "data mining",
+      "name": "Electromagenetic Sensor Design",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "Machine learning",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Robotics and Control",
       "keywords": [
       ]
     }
