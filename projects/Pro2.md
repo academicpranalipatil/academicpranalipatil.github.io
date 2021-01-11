@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/second.1.jpg
 title: Haptic Robotic Arm
-permalink: projects/micromouse
+permalink: projects/Haptic Robotic Arm
 # All dates must be YYYY-MM-DD format!
 date: 2016-07-01
 labels:
