@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/fifth.0.jpg.jpg
+image: images/fifth.0.jpg
 title: Application of EMF production using TESLA coil
 permalink: projects/Application of EMF production using TESLA coil
 # All dates must be YYYY-MM-DD format!
