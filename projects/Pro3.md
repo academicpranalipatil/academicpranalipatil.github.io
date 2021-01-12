@@ -10,7 +10,7 @@ labels:
   - Microcontroller (AT89S52) 
   - pulse sensor
   - C++
-summary: My team developed a Heart Beat Detection and Monitoring System using Arduino that will detect the heart beat using the Pulse Sensor and will show the readings in BPM (Beats Per Minute) on the LCD connected to it. It will also send the readings to Thing-Speak server using the Wi-Fi module ESP8266, so that Heart Beat can be monitored from anywhere in the world over the internet..
+summary: My team developed a Heart Beat Detection and Monitoring System using Microcontroller AT89S52 which detects the heart beat using the Pulse Sensor.
 ---
 
 <div class="ui small rounded images">
