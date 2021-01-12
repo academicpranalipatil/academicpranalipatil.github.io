@@ -1,44 +1,32 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
-title: Micromouse
-permalink: projects/micromouse
+image: images/fourth.1.jpg
+title: Speed Control of the DC Motor through Temperature Variations using LabVIEW and Microcontroller (AT89S52) 
+permalink: projects/Speed Control of the DC Motor through Temperature Variations using LabVIEW and Microcontroller (AT89S52)
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date: 2018-07-01
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+  - LabVIEW
+  - Microcontroller (AT89S52)
+  - DC Motor
+summary: My team developed a LabVIEW Algorithm to control the speed of DC Motor through Temperature Variations.
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
+  <img class="ui image" src="../images/fourth.1.jpg">
+  <img class="ui image" src="../images/fourth.2.jpg">
+  <img class="ui image" src="../images/fourth.3.jpg">
+  <img class="ui image" src="../images/fourth.4.jpg">
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+Instrumentation usually requires large investments, resulting in expensive monitoring or control systems, which generally are not able to perform the analysis and control of several signals simultaneously. Considering such cases, the new generation of acquisition systems, named virtual instruments (VI), have been considerably increased in the last few years. LabVIEW TM (Laboratory Virtual Instrument Engineering Workbench), a product of National Instruments, is a powerful software system that accommodates data acquisition, instrument control, data processing and data presentation. LabVIEW which can run on PC under Windows. All LabVIEW graphical programs, called Virtual Instruments or simply VIs, contains a Front Panel and a Block Diagram.In the present era automation is a popular technique which is seen almost everywhere starting from industrial application to consumer application. This project describes how the DC motor speed is automatically controlled through temperature variation. The use of DC motors were mostly found in AC machines like small cooling fans, rob arms toy cars etc.This project uses the LabVIEW platform which is made to be interfaced with the DC motor. The interfacing circuit is done on an Arduino board which is supported by the LabVIEW platform.Since the speed of the motor is controlled through temperature variation, temperature measurement circuit is also interfaced through LabVIEW. With respect to the change in the variation in temperature the dc motor speed can either be increased/decreased using the LabVIEW program.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+The use of most of the electronic devices available in the market, in our day to day life seems to be an automated control type for e.g. device like personal computer CPUs need to be operated in a temperature controlled environment. This means the speed of the DC motor is directly maintained through temperature. Besides this, there are some industrial applications which follow the said procedure in maintaining a constant temperature working environment for the machines.The motor speed can be controlled in many ways. 
+The method adopted here is low cost technique for the speed control of a DC motor. This project uses the LabVIEW platform which is made to be interfaced with the DC motor.The interfacing circuit is done on an Arduino board which is supported by the LabVIEW platform. Arduino Uno board acts as a data acquisition system.
 
-Here is some code that illustrates how we read values from the line sensors:
 
-```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
-
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
+Here's a video which illustrates the described Project [Video](https://vimeo.com/297578486).
 
 
 
