@@ -1,44 +1,41 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
-title: Micromouse
-permalink: projects/micromouse
+image: images/eight.1.jpg
+title: Control of an Inverted pendulum using Full state feedback controller using MATLAB
+permalink: projects/Control of an Inverted pendulum using Full state feedback controller using MATLAB
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date: 2019-07-01
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+  - Matlab
+  - Advance Control Theory
+  - LQR, Pole Placement
+  - State feedback
+  - State Observer
+summary: My team designed a Matlab algorithm and GUI to control an Inverted pendulum using concepts of Advance Control Theory
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
+  <img class="ui image" src="../images/eight.2.jpg">
+  <img class="ui image" src="../images/eight.3.jpg">
+  <img class="ui image" src="../images/eight.4.jpg">
+  <img class="ui image" src="../images/eight.5.jpg">
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+In this project an inverted pendulum is controlled using state space modelling method. And full state feedback controller is developed using pole placement and LQR (Linear Quadratic Regulation) methods. After that, tracking problem is addressed by designing a steady state error controller. Then, considering the reality conditions, first assuming by some of the state variables are measurable, a reduced state observer is designed and then for a worst scenario a full order state observer is designed. Finally, the state feedback controller and the state observer are summed up to give a precompensator and an overall steady state error controller is added to that new system. All mathematical modelling is presented clearly and simulations together with their analysis were done using MATLAB software. For clear view on what is going on with the control method and the system,an animation GUI is also presented.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
 
-Here is some code that illustrates how we read values from the line sensors:
+As a typical control system, the control of an inverted pendulum is excellent in testing and evaluating different control methods. Its popularity derives in part from the fact that it is unstable without control, that is, the pendulum will simply fall over if the cart isn't moved to balance it. Additionally, the dynamics of the system are nonlinear. The objective of the control system is to balance the inverted pendulum by applying a force to the cart that the pendulum is attached to. A real-world example that relates directly to this inverted pendulum system is the attitude control of a booster rocket at take-off but The fundamental principles within this control system can be found in many industrial applications, such as stability control of walking robots, vibration control of launching platform for shuttles etc.
 
-```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
 
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
+Modeling of an inverted pendulum shows that the system is unstable without a controller. Results of applying state feedback controllers show that the system can be stabilized. While both pole placement and LQR controller methods are cumbersome because of selection of constants of controller though they can brought a good result if done systematically with some guide lines. When a DC reference input is applied to the cart, the system has failed slightly to track the input and has given a stable output with some oscillations – unsatisfactory steady state performances. To eliminate this, a no steady state error tracking controller is designed and has brought good results as can be seen on the graphs in each steps.And since in reality all the states can’t be measured, a full-order state estimator (observer) is designed. Finally, the state feedback controller is summed with a full-order state observer to give a precompensator and then a steady state error tracking mechanism is also added to the whole new system. All those have brought a really nice controlled inverted pendulum system with good performance.
+
+
+
+
+
+
+You can learn more at the [Website](https://ctms.engin.umich.edu/CTMS/index.php?example=InvertedPendulum&section=ControlStateSpace).
 
 
 
