@@ -5,7 +5,7 @@ image: images/fifth.0.jpg
 title: Application of EMF production using TESLA coil
 permalink: projects/Application of EMF production using TESLA coil
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date: 2016-10-01
 labels:
   - Tesla Coil
   - Regulated DC power supply circuitry
