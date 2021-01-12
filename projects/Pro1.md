@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/first.0.jpg
+image: images/first.1.jpg
 title: Precision Farming System using Robot Wireless Sensor Networks and IoT
 permalink: projects/ Precision Farming System using Robot Wireless Sensor Networks and IoT
 # All dates must be YYYY-MM-DD format!
