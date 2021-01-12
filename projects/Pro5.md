@@ -1,9 +1,9 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
+image: images/fifth.0.jpg.jpg
 title: Application of EMF production using TESLA coil
-permalink: projects/micromouse
+permalink: projects/Application of EMF production using TESLA coil
 # All dates must be YYYY-MM-DD format!
 date: 2015-07-01
 labels:
