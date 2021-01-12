@@ -1,9 +1,9 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
+image: images/third.1.jpg
 title: Health monitoring System using controller and IOT think-speak platform
-permalink: projects/micromouse
+permalink: projects/ Health monitoring System using controller and IOT think-speak platform
 # All dates must be YYYY-MM-DD format!
 date: 2017-07-01
 labels:
