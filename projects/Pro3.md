@@ -31,7 +31,7 @@ The ESP8266 will then communicate with the Arduino and will send the data to Thi
 Here is some code that illustrates how we read values from the line sensors:
 
 // Variables
-int pulsePin = 0; // Pulse Sensor purple wire connected to analog pin 0
+int pulsePin = 0; // Pulse Sensor purple wire connected to analog pin 0 
 int blinkPin = 13; // pin to blink led at each beat
 int fadePin = 5; // pin to do fancy classy fading blink at each beat
 int fadeRate = 0; // used to fade LED on with PWM on fadePin
