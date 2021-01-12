@@ -1,16 +1,16 @@
 ---
 layout: project
 type: project
-image: images/first.3.jpg
-title: Smart Farming System using Robot and Wireless Sensor Networks, IOT
-permalink: projects/Smart Farming System using Robot and Wireless Sensor Networks, IOT
+image: images/first.0.jpg
+title: Smart Farming System using Robot and Wireless Sensor Networks, IoT
+permalink: projects/Smart Farming System using Robot and Wireless Sensor Networks, IoT
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date: 2018-07-01
 labels:
   - Robotics & IoT
   - Microcontroller (AT89S52) 
   - Raspberry Pi
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+summary: My team developed a Smart farming system using Sensor networks and IoT and team got selected in top 10 teams of Select Make-A-thon, A 36 hour National Event by VIT-TBI, 2017, VIT university.
 ---
 
 <div class="ui small rounded images">
@@ -26,17 +26,7 @@ This data is sent to the farmer through interface of a website using raspberry P
 
 Here is some code that illustrates how we read values from the line sensors:
 
-```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
+
 
 Here is video that illustrates how we read values from the line sensors and control the bot: [Video] (https://vimeo.com/336328309).
 
