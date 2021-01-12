@@ -16,7 +16,7 @@ summary: My team developed a Heart Beat Detection and Monitoring System using Ar
 <div class="ui small rounded images">
   <img class="ui image" src="../images/third.1.jpg">
   <img class="ui image" src="../images/third.2.jpg">
-  <img class="ui image" src="../images/third.3,jpg">
+  <img class="ui image" src="../images/third,3.jpg">
   <img class="ui image" src="../images/third.4.jpg">
 </div>
 
