@@ -5,7 +5,7 @@ image: images/sev.1.jpg
 title: Load Test and data acquisition of Single Phase Induction Motor and Remote Monitoring RS-485 protocols
 permalink: projects/Load Test and data acquisition of Single Phase Induction Motor and Remote Monitoring RS-485 protocols
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date: 2018-10-01
 labels:
   - LabVIEW
   - NI-DAQ & Smart meter PM710
