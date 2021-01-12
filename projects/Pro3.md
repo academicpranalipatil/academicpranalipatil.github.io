@@ -29,7 +29,7 @@ the change in volume of blood, which occurs when every time heart pumps blood in
 The ESP8266 will then communicate with the Arduino and will send the data to ThingSpeak. The ESP8266 will connect the network of your router that you will provide in the code and will send the data of the sensor online. This data on the ThingSpeak will be shown in a Graph form showing the past readings too and can be accessed from anywhere over internet. The LCD connected will also show you the BPM.
 
 Here is some code that illustrates how we read values from the line sensors:
-
+```
 // Variables
 int pulsePin = 0; // Pulse Sensor purple wire connected to analog pin 0 
 int blinkPin = 13; // pin to blink led at each beat
@@ -53,6 +53,7 @@ interruptSetup(); // sets up to read Pulse Sensor signal every 2mS
 // UN-COMMENT THE NEXT LINE AND APPLY THAT VOLTAGE TO THE A-REF PIN
 // analogReference(EXTERNAL);
 }
+```
 Here is a video that illlustrates the project [Video](https://vimeo.com/263332763).
 
 
