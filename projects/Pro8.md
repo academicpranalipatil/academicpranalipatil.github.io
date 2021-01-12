@@ -18,7 +18,7 @@ summary: My team developed an Infrared based Obstacle Avoidance System with Fire
   <img class="ui image" src="../images/sixth.1.jpg">
   <img class="ui image" src="../images/sixth.2.jpg">
   <img class="ui image" src="../images/sixth.3.jpg">
-  <img class="ui image" src="../images/sixth.4.jpg">
+  <img class="ui image" src="../images/sixth.0.jpg">
 </div>
 
 In the present era automation is a popular technique which is seen almost everywhere starting from industrial application to consumer application. For the purpose of protecting fire fighters from extreme danger in petrochemical, chemical dangerous product, toxicoid or exploder fire accidents, an unmanned An Infrasonic Obstacle avoidance system with fire-fighting robot is designed and developed as a factory element of coming future Technology, In this project an Infrared based obstacle avoidance system used for fire fighting robot is presented. Microcontroller (AT89S52) is used to avoid the obstacle and fire detection with the help of infrasonic sensor and flame sensor. 
