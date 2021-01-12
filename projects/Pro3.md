@@ -20,7 +20,7 @@ summary: My team developed a Heart Beat Detection and Monitoring System using Ar
   <img class="ui image" src="../images/third.4.jpg">
 </div>
 
-In this project we are going to make a Heart Beat Detection and Monitoring System using Arduino that will detect the heart beat using the Pulse Sensor and will show the
+In this project we made a Heart Beat Detection and Monitoring System using Arduino that will detect the heart beat using the Pulse Sensor and will show the
 readings in BPM (Beats Per Minute) on the LCD connected to it. It will also send the readings to Thing-Speak server using the Wi-Fi module ESP8266, so that Heart Beat
 can be monitored from anywhere in the world over the internet. Now-a-days the development and usage of the mobile systems and wireless networks became prominent. There is an enhancement in telemedicine applications and patient monitoring. To improve cost reduction, resource management, time and patient care, the mobile systems and wireless networks will be an aid in hospital and other medical environments. The real-time information is useful for making critical decisions about the care of the patients, the demands on strength and consistency of wireless communication systems can be used by medical environment.
 
