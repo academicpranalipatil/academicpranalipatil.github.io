@@ -10,7 +10,7 @@ labels:
   - Robotics & IoT
   - Microcontroller (AT89S52) 
   - Raspberry Pi
-summary: My team developed a Smart farming system using Sensor networks and IoT and team got selected in top 10 teams of Select Make-A-thon, A 36 hour National Event by VIT-TBI, 2017, VIT university.
+summary: My team developed a Smart farming system using Sensor networks and IoT .
 ---
 
 <div class="ui small rounded images">
@@ -28,6 +28,6 @@ Here is some code that illustrates how we read values from the line sensors:
 
 
 
-Here is video that illustrates how we read values from the line sensors and control the bot: [Video] (https://vimeo.com/336328309).
+Here is video that illustrates how we read values from the line sensors and control the bot [Video] (https://vimeo.com/336328309).
 
 
