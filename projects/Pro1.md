@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/first.3.jpg
 title: Smart Farming System using Robot and Wireless Sensor Networks, IOT
-permalink: projects/micromouse
+permalink: projects/Smart Farming System using Robot and Wireless Sensor Networks, IOT
 # All dates must be YYYY-MM-DD format!
 date: 2015-07-01
 labels:
