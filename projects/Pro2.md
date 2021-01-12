@@ -25,7 +25,7 @@ Haptics (pronounced HAP-tiks) is the science of applying touch (tactile) sensati
 
 
 
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
+Here's a video which illustrates this project in detail [Video](https://vimeo.com/499512162).
 
 
 
