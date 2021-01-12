@@ -2,43 +2,29 @@
 layout: project
 type: project
 image: images/micromouse.jpg
-title: Micromouse
+title: Application of EMF production using TESLA coil
 permalink: projects/micromouse
 # All dates must be YYYY-MM-DD format!
 date: 2015-07-01
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+  - Tesla Coil
+  - Regulated DC power supply circuitry
+  - Mosfet with heat sink
+summary: My team developed a Tesla coil which aims at wireless transfer of power using principles of Magnetic Induction.
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
+  <img class="ui image" src="../images/fifth.0.jpg">
+  <img class="ui image" src="../images/fifth.1.jpg">
+  <img class="ui image" src="../images/fifth.2.jpg">
+  <img class="ui image" src="../images/fifth.3.jpg">
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+The world of wireless technology is here! Innumerable wireless applications like wireless powered lighting, wireless smart homes, wireless chargers and so on are developed due to wireless technology. In 1891, the most famous discovery of the Tesla coil was invented by the inventor Nikola Tesla. Tesla was obsessed with providing wireless energy, which led to the invention of the Tesla coil. This coil does not require a complex circuit and so it is part of our daily lives like remote control, smartphones, computers, X-rays, neon and fluorescent lights, and so on.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+This coil has the ability to produce output voltages up to several million volts based upon the size of the coil. The Tesla coil works on a principle to achieve a condition called resonance. Here, the primary coil emits huge amounts of current into the secondary coil to drive the secondary circuit with maximum energy. The fine-tuned circuit helps to shoot the current from primary to secondary circuit at a tuned resonant frequency.This projects aims at wireless transfer of power using principles of Magnetic Induction. The transmitter coil is energized by AC to generate a magnetic field which in turn induces a current in the receiver coil..
 
-Here is some code that illustrates how we read values from the line sensors:
-
-```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
-
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
+Here's a video which illustrates this project [Video](https://vimeo.com/499510456).
 
 
 
