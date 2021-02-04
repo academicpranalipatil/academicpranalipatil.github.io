@@ -1,9 +1,7 @@
 ---
 layout: essay
 type: essay
-image: images/second.1.jpg
-title: Haptic Robotic Arm
-permalink: projects/Haptic Robotic Arm
+title: Igniting the fire
 # All dates must be YYYY-MM-DD format!
 date: 2016-07-01
 labels:
@@ -26,7 +24,4 @@ Haptics (pronounced HAP-tiks) is the science of applying touch (tactile) sensati
 
 
 Here's a video which illustrates this project in detail [Video](https://vimeo.com/499512162).
-
-
-
 
