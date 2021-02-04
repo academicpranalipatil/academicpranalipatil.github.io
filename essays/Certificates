@@ -1,6 +1,6 @@
 ---
-layout: project
-type: project
+layout: credentials
+type: essays
 image: images/second.1.jpg
 title: Haptic Robotic Arm
 permalink: projects/Haptic Robotic Arm
