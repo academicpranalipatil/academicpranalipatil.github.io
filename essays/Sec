@@ -1,14 +1,39 @@
 ---
-layout: essays  
+layout: essay
 type: essay
-image: images/logoc/wil.jpg
-title: Higher Secondary  
-date: 2016 
+title: Igniting the fire
+# All dates must be YYYY-MM-DD format!
+date: 2015-08-26
 labels:
-  - SSC
+  - Software Engineering
+  - Learning
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/logoc/wil.jpg ">
-*This page presents evidence of my core competencies in computer science as required for the [ICS Ph.D. Portfolio](http://www.ics.hawaii.edu/academics/graduate-degree-programs/ph-d-in-ics/#phd-portfolio). This includes evidence for my M.S. degree and the results of my qualifying exam.*
+<img class="ui tiny left circular floated image" src="../images/paintbrushes.jpg">
 
-## Higher Secondary Schooling
+Ever since I first grasped a paintbrush, I’ve always been eager to learn about design. Design is such a complex concept. For example, when looking at abstract art, its meaning can be completely different for different people. It motivates a person to think thoughtfully and has the potential to submerge them in a sea of imagination. It’s that special relationship between the viewer and the art that makes something as technical as software engineering interesting to me.
+
+<img class="ui tiny left circular floated image" src="../images/design-technology.jpg">
+
+I never used to think that design and technology went hand in hand.  Thus, learning about software engineering and the role of design has been incredibly interesting to me. Design, implementation, and management are just some of the many things I wish to learn more about. Good art, in a way, makes a person question it. They become joined in the idea of visualization – where captivation meets inspiration.
+
+<img class="ui tiny left circular floated image" src="../images/software-code.jpg">
+
+I am now starting to take a Software Engineering class. I hope to learn a lot through the course, but I know it will be just the beginning of my journey. By the time I’m done with it, I hope I’ve learned enough to take the next step in my life as a developer. But until then, my fire will keep on burning.
+
+<div class="ui small rounded images">
+  <img class="ui image" src="../images/second.1.jpg">
+  <img class="ui image" src="../images/second.2.jpg">
+  <img class="ui image" src="../images/second.3.jpg">
+  <img class="ui image" src="../images/second.4.jpg">
+</div>
+
+Haptics (pronounced HAP-tiks) is the science of applying touch (tactile) sensation and control to interaction with computer applications.The project is on creating an artificial arm prototype that mimics the human hand. We use pots at all the joints and as my hand moves the value of the Pot changes resulting in resistance variation which inturn affects the current. This is taken as an analog input on the microcontroller and we go-ahead with adjusting the motor shaft motions of the artificial arm depending upon the current values provided from the human arm. The pots attached to the human arm vary their resistance depending on the motion of the arm. The analog values act as input for the microcontroller which in turn gives corresponding output signals to the motor driver circuit which controls the motion of the motors of the artificial arm.The Robotic Arm is comprised of several servos at various joints which are in correspondence with the wiper positions of the potentiometers situated in Remote controlling unit to control the movement of Robotic Arm.The potentiometer converts the mechanical movement into electrical signal proportional to the magnitude of external motion by changing its internal resistance.
+
+
+
+
+Here's a video which illustrates this project in detail [Video](https://vimeo.com/499512162).
+
+
+
